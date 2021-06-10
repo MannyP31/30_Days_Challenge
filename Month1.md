@@ -430,3 +430,87 @@ input
 output 
 YES
 </pre>
+
+> 42. Print the following pattern
+<pre>
+				5				
+			4		6			
+		3		5		7		
+	2		4		6		8	
+1		3		5		7		9
+</pre>
+
+> 43. Program to convert Decimal to Binary,Octal,HexaDecimal numbers. (Within Single Function).
+
+> 44. WAP to check if the binary representation of a number is palindrome.
+
+> 45. WAP to Minimize given integer by swapping pairs of unequal bits(0,1) in its binary representation.
+
+> 46. WAP to find roots of any quadratic equation.
+<pre>
+Input:
+5
+2.5
+3
+Output:
+root1 = -0.25+0.73i
+root2 = -0.25-0.73i
+</pre>
+
+> 47. WAP to check if a number is Armstrong number or not.
+
+> 48. Compute x^y using only bit-wise operators.
+<pre>
+Test Case:
+2.0
+3
+Output:8.0
+</pre>
+
+> 49. WAP to print following triangle:
+<pre>
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+</pre>
+
+> 50. Write a program to find the maximum number of distinct prime factors a number has in a given range and print the max number of factors.
+<pre>
+Example:
+Input first integer:  5
+Input second integer:  25
+</pre>
+
+> 51. Write a java program to find next smallest palindrome number.
+<pre>
+Example: 
+Input the number:  121
+Next smallest palindrome:131
+</pre>
+
+> 52. Write a program to print the following pattern:
+<pre>
+     CWC
+    C W C
+   C  W  C
+  C   W   C
+ C    W    C
+</pre>
+
+> 53. Write a program to print this series:
+<pre>
+1,1,4,8,9,27,16,64,.... Upto n terms
+</pre>
+
+> 54 . WAP to Print the pattern given below:
+<pre>
+*****
+ ***
+  *
+ ***
+*****
+</pre>
+
+> 55. Given two complex numbers, write a program to add two numbers.
