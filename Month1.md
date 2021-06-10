@@ -196,3 +196,237 @@ Best sequence for the ML model that runs in least time will be the sequence no :
 </pre>
 
 > 20. Program to print a statement without using the print statement. 
+
+> 21. Write a program which returns all distinct non attacking placements of n Queens on an n x n chessboard, where n is an input to the program. 
+
+> 22. Multiply two numbers with using only Bitwise Operators.
+
+> 23. Write a function to merge two arrays in following fashion.
+<pre>
+Input :
+P = 1 4 6 8
+Q = 11 19 10 7
+Output: 1 11 4 19 6 10 8 7
+</pre>
+
+> 24. Write a function to move all the even elements to the starting of List and odd to the end of the List.
+
+> 25. Write a program to toggle a paritucular bit using bitwise operators.
+ 
+> 26. Write a program to input a number and check and print whether it is a Pronic number or not. (Pronic number is the number which is the product of two consecutive integers).
+
+> 27. Given an unsorted array arr[] which contains both positive and negative numbers.Your task is to find the first positive missing numbers.
+
+> 28. Write a program to calculate the sum of series. S= 1^n + 2^n-1 + 3^n-2 +…………+ n^1.
+
+> 29. Display the following series. Also calculate its sum 0.5 +0.55 + 0.555 + ---------- + n terms.
+
+> 30. Write a program accept N numbers in an array then shift the positive numbers towards the left and negative elements towards the right without altering the original sequence.
+<pre>
+Input : -3, 22, -45 , 67, 8,10, 9, -2, -5
+Output : 22, 67, 8, 10 ,9, -3, -45, -2, -5
+</pre>
+
+> 31. Write a java program to accept numbers in a matrix of size 4 x 4 by using Scanner class then calculate and display sum of bordered elements.
+<pre>
+Input :
+4 5 6 3
+2 3 2 5
+6 1 2 7
+4 5 3 2
+Output : Sum =52
+</pre>
+
+> 32. Binomial co-efficient can be calculated by using the following formula : nCm = n!/m!(n–m)! (where ! sign represents the factorial of a number) 
+WAP in java to calculate and print the binomial co-efficient of the given expression, taking the value n and m as input . Make use of the function int fact( int k ), which returns the factorial of a number k. 
+
+> 33. Seema is a teacher.She has got the job to arrange N number of papers in ascending order by there marks. There are T number of sections. Help her do the work.
+<pre>
+Input: 2
+       4
+       65 76 65 34 
+       3 
+       56 54 65
+
+Output:34 65 65 76 
+       54 56 65 
+
+Time Complexity: O(n^2) 
+Auxiliary Space: O(1)
+</pre>
+
+> 34. You are given two integer arrays a and b of length n. You can reverse at most one subarray (continuous subsegment) of the array a. Your task is to reverse such a subarray that the sum ∑i=1nai⋅bi is maximized.
+<pre>
+Input
+The first line contains one integer n (1≤n≤5000).
+
+The second line contains n integers a1,a2,…,an (1≤ai≤107).
+
+The third line contains n integers b1,b2,…,bn (1≤bi≤107).
+
+Output
+Print single integer — maximum possible sum after reversing at most one subarray (continuous subsegment) of a.
+
+Examples
+
+input
+5
+2 3 2 1 3
+1 3 2 4 2
+output 
+29
+
+input 
+2
+13 37
+2 4
+output 
+174
+
+input 
+6
+1 8 7 6 3 6
+5 9 6 8 8 6
+output 
+235
+</pre>
+
+> 35. Find the n th fibonacci number
+<pre>
+Time complexity:O(logn)
+Space Complexity:O(1)
+</pre>
+
+> 36. Write a program to display all the N numbers of a Catalan Number sequence.
+<pre>
+Time Complexity: O(n^2)
+</pre>
+
+> 37. The Gray code is a well-known concept. One of its important properties is that every two adjacent numbers have exactly one different digit in their binary representation.
+In this problem, we will give you n non-negative integers in a sequence A[1..n] (0<=A[i]<2^64), such that every two adjacent integers have exactly one different digit in their binary representation, similar to the Gray code.
+Your task is to check whether there exist 4 numbers A[i1], A[i2], A[i3], A[i4] (1 <= i1 < i2 < i3 < i4 <= n) out of the given n numbers such that A[i1] xor A[i2] xor A[i3] xor A[i4] = 0.
+<pre>
+Input
+First line contains one integer n (4<=n<=100000). Second line contains n space seperated non-negative integers denoting the sequence A.
+
+Output
+Output “Yes” (quotes exclusive) if there exist four distinct indices i1, i2, i3, i4 such that A[i1] xor A[i2] xor A[i3] xor A[i4] = 0. Otherwise, output "No" (quotes exclusive) please.
+
+Example
+Input:
+5
+1 0 2 3 7
+Output:
+Yes
+</pre>
+
+> 38. You are given a multiset of N integers. Please find such a nonempty subset of it that the sum of the subset's elements is divisible by N. Otherwise, state that this subset doesn't exist.
+<pre>
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test consists of a single integer N - the size of the multiset.
+The second line of each test contains N single space separated integers - the multiset's elements.
+
+Output
+For each test case output:
+
+  ->  -1 if the required subset doesn't exist
+  ->  If the required subset exists, output two lines. Output the size of the subset on the first line and output the list of indices of the multiset's element that form the required subset. Of course, any number can be taken in the subset no more than once.
+  ->   If there are several such subsets, you can output any.
+
+Constraints
+  ->	1 <= The sum of N over all the test cases <= 105
+  ->	Each element of the multiset is a positive integer, not exceeding 109.
+  ->	1 <= N <= 15   
+  ->	1 <= N <= 1000 
+  ->	1 <= N <= 105 
+Example
+
+Input:
+1
+3
+4 6 10
+
+Output:
+1
+2
+</pre>
+
+> 39. Peter wants to generate some prime numbers for his cryptosystem. Help him! Your task is to generate all prime numbers between two given numbers!
+<pre>
+Input
+The input begins with the number t of test cases in a single line (t<=10). In each of the next t lines there are two numbers m and n (1 <= m <= n <= 1000000000, n-m<=100000) separated by a space.
+
+Output
+For every test case print all prime numbers p such that m <= p <= n, one number per line, test cases separated by an empty line.
+
+Example
+Input:
+2
+1 10
+3 5
+
+Output:
+2
+3
+5
+7
+
+3
+5
+</pre>
+
+> 40. In this problem Sereja is interested in number of arrays A[1], A[2], ..., A[N] (1 ≤ A[i] ≤ M, A[i] - integer) such that least common multiple (LCM) of all its elements is divisible by number D.
+Please, find sum of answers to the problem with D = L, D = L+1, ..., D = R. As answer could be large, please output it modulo (10^9 + 7).
+<pre>
+Input
+  ->	First line of input contain integer T - number of test cases.
+  ->	For each test case, only line of input contain four integers N, M, L, R.
+Output
+   ->	For each test case, output required sum modulo (109 + 7).
+Constraints
+   ->	1 ≤ T ≤ 10
+   ->	1 ≤ N ≤ 5*106
+   ->	1 ≤ L ≤ R ≤ M ≤ 1000
+Example
+Input:
+2
+5 5 1 5
+5 5 4 5
+Output:
+12310
+4202
+</pre>
+
+> 41. You are given a sequence of numbers a1, a2, ..., an, and a number m. Check if it is possible to choose a non-empty subsequence aij such that the sum of numbers in this subsequence is divisible by m.
+<pre>
+Input
+The first line contains two numbers, n and m (1 ≤ n ≤ 106, 2 ≤ m ≤ 103) — the size of the original sequence and the number such that sum should be divisible by it.
+
+The second line contains n integers a1, a2, ..., an (0 ≤ ai ≤ 109).
+
+Output
+In the single line print either "YES" (without the quotes) if there exists the sought subsequence, or "NO" (without the quotes), if such subsequence doesn't exist.
+
+Examples
+input 
+3 5
+1 2 3
+output 
+YES
+input 
+1 6
+5
+output 
+NO
+input 
+4 6
+3 1 1 3
+output 
+YES
+input 
+6 6
+5 5 5 5 5 5
+output 
+YES
+</pre>
