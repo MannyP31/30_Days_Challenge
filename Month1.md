@@ -683,11 +683,105 @@ sin (x) = x- x 3 /3! + x5 /5! - x 7 /7! +…
 The acceptable error for computation is 10^-6 
 </pre>
 
-> 73. Write a program to compute the harmonic mean.
+> 74. Write a program to compute the harmonic mean.
 
-> 74. WAP that show double factorial
+> 75. WAP that show double factorial
 <pre>
 Input: 6
 Output: 48
 Note that 6*4*2 = 48
+</pre>
+
+> 76. Maya celebrated her birthday party. After the completion of cake cutting ceremony, Maya’s mom cuts the cake into various pieces inorder to distribute it to all her friends.Given an integer n denoting the number of cuts that can be made on a birthday cake. Write a code to find the maximum number of pieces that can be formed by making n cuts.
+<pre>
+ Example :
+ Input:  N = 6
+ Output: 22
+ Explanation: 22 pieces can be formed by making 6 cuts
+</pre>
+
+> 77. Given an array a[] of size n and a number num ,write a program to find if there exists a pair of elements in the array whose difference is num.
+<pre>
+Example:
+Input: n = 6 , num = 78
+a[ ] = { 5, 3, 2, 80, 20, 5 }
+Output:1
+Explanation: (2, 80) have difference of 78.
+</pre>
+
+> 78. Given an array a[ ]  of size n, swap the p th element from beginning with p th  element from end.
+<pre>
+Example:
+Input: n = 8, p = 3 
+a[ ] = {1, 2, 3, 4, 5, 6, 7, 8}
+Output: 1 2 6 4 5 3 7 8
+Explanation: pth element from beginning is 3 and from end is 6
+</pre>
+
+> 79. Print the following pattern.
+<pre>
+        1
+        2    3
+        4    5    6
+        7     8    9     10
+</pre>
+
+> 80. Given two numbers m and n , you are required to check whether they are anagram of each other or not in binary representation?
+<pre>
+Example:
+Input:
+m = 8, n = 4 
+Output: True 
+Explanation: Binary representation of both numbers have same 0s and 1s
+</pre>
+
+> 81. Given an array of even size N, task is to find minimum value that can be added to an element so that array become balanced. An array is balanced if the sum of the left half of the array elements is equal to the sum of right half.
+<pre>
+Example:
+Input:  n = 4 
+a[ ] = { 1, 5, 3, 2}
+Output: 1
+Explanation: 
+Sum of right half of the array = 3 + 2 = 5
+Sum of left half of the array = 1 + 5 = 6
+To make the array balance we need to add 1
+</pre>
+
+> 82. Given a sorted array containing only 0s and 1s, find the transition point. Note: return -1 if there is no transition point.
+<pre>
+Example: 
+Input: n = 5
+arr[ ] = { 0, 0, 0, 0, 1}
+Output: 4
+Explanation: 4 is the transition point from where 1 starts
+Input : n = 4
+arr[ ] = {1, 1, 1, 1}
+Output: -1
+Explanation: -1 because there is no transition point
+</pre>
+
+> 83. Given an array arr of positive integers. Your task is to find the leaders in the array. An element of array is leader if it is greater than or equal to all the elements to its right side. The rightmost element is always a leader. 
+<pre>
+Hint: Traverse all the elements from right to left in array and check whether the current element is greater than the maximum stored till now.
+Example:
+Input: n = 6
+arr[ ] = { 16, 17, 4, 3, 5, 2}
+Output: 17  5  2
+<pre>
+
+> 84. Print the following pattern.
+<pre>
+                     1
+                 1      2
+            1       2       3
+       1        2       3      4
+   1       2       3       4      5
+</pre>
+
+> 85. Print the following pattern.
+<pre>
+      1   2   3   4   
+           1   2   3   
+                1   2   
+                     1
 </pre>
