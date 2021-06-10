@@ -612,7 +612,82 @@ O/p: Enter the number you want to check: 13895
 The number is unique.
 </pre>
 
-> 66.  Find the 15th term of the series.
+> 66. Find the 15th term of the series.
 <pre>
 0,0,7,6,14,12,21,18,28,…	
+</pre>
+
+> 67. WAP that given three arrays sorted in non-decreasing order, print all common elements in these arrays.
+<pre>
+Input: 
+ar1[] = {1, 5, 10, 20, 40, 80} 
+ar2[] = {6, 7, 20, 80, 100} 
+ar3[] = {3, 4, 15, 20, 30, 70, 80, 120} 
+Output: 20, 80
+</pre>
+
+> 68. WAP that given array and split it from a specified position, and move the first part of the array add to the end. 
+<pre>
+Input : arr[] = {12, 10, 5, 6, 52, 36}
+            k = 2
+Output : arr[] = {5, 6, 52, 36, 12, 10}
+</pre>
+
+> 69. WAP that given a number n, the task is to find the even factor sum of a number.
+<pre>
+Input : 30
+Output : 48
+Even dividers sum 2 + 6 + 10 + 30 = 48
+</pre>
+
+> 70. WAP that given a number, find minimum sum of its factors.
+<pre>
+Input : 12
+Output : 7
+Explanation: 
+Following are different ways to factorize 12 and
+sum of factors in different ways.
+12 = 12 * 1 = 12 + 1 = 13
+12 = 2 * 6 = 2 + 6 = 8
+12 = 3 * 4 = 3 + 4 = 7
+12 = 2 * 2 * 3 = 2 + 2 + 3 = 7
+Therefore minimum sum is 7
+</pre>
+
+> 71. Given an integer N, the task is to generate a matrix of dimensions N x N using positive integers from the range [1, N] such that the sum of the secondary diagonal is a prefect square
+<pre>
+Input: N = 7
+Output:
+1 2 3 4 5 6 7
+2 3 4 5 6 7 1
+3 4 5 6 7 1 2
+4 5 6 7 1 2 3
+5 6 7 1 2 3 4
+6 7 1 2 3 4 5
+7 1 2 3 4 5 6
+Explanation:
+The sum of secondary diagonal = 3 + 3 + 3 = 9(= 3^2).
+</pre>
+
+> 72. Write a program Given two integer arrays of same size, “arr[]” and “index[]”, reorder elements in “arr[]” according to given index array. It is not allowed to given array arr’s length.
+<pre>
+Input:  arr[]   = [50, 40, 70, 60, 90]
+        index[] = [3,  0,  4,  1,  2]
+Output: arr[]   = [40, 60, 90, 50, 70]
+        index[] = [0,  1,  2,  3,   4]
+</pre>
+
+> 73. Write a program to evaluate the function sin(x) as defined by the infinite series expansion.
+<pre>
+sin (x) = x- x 3 /3! + x5 /5! - x 7 /7! +…
+The acceptable error for computation is 10^-6 
+</pre>
+
+> 73. Write a program to compute the harmonic mean.
+
+> 74. WAP that show double factorial
+<pre>
+Input: 6
+Output: 48
+Note that 6*4*2 = 48
 </pre>
