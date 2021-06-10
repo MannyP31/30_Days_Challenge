@@ -785,3 +785,28 @@ Output: 17  5  2
               1   2   
                   1
 </pre>
+
+> 86. Write a program to generate and show all Kaprekar numbers less than 1000.
+<pre>
+Expected Output :
+1       1         0 + 1                                  
+9       81        8 + 1                                  
+45      2025      20 + 25                                
+55      3025      30 + 25                                
+99      9801      98 + 01                                
+297     88209     88 + 209                               
+703     494209    494 + 209                              
+999     998001    998 + 001                              
+8 Kaprekar numbers.  
+</pre>
+
+> 87. Write a program to accept a float value of number and return a rounded float value.
+<pre>
+Sample data:
+Input a float number: 12.51
+The rounded value of 12.510000 is: 13.00
+Input a float number: 12.49999
+The rounded value of 12.499990 is: 12.00
+</pre>
+
+> 88. Write a program to generate random integers in a specific range.
