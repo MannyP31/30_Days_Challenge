@@ -4,7 +4,7 @@
 
 [![](https://img.shields.io/badge/CWC-ITER-gray.svg?style=for-the-badge&colorB=0000f&logo=github)](https://elastic-bose-ed6583.netlify.app/)
 
-## Coding Wizard Club welcomes you to the 30 Days Challenge Series.
+## Coding Wizard Club welcomes you to the 30 Days Problem Solving Challenge.
 
 <ol>
   <li>This Repo contains set of 100 questions.</li>
@@ -14,6 +14,8 @@
   <li>Those who will successfully complete the challenge (fulfill 2nd point) will get a recognition certificate from CWC.</li>
   <li>And the top 3 performers will get a certificate of achievement from the placement cell.</li>	
 </ol>
+
+<h2>Happy Coding 👨‍💻 </h2>
 
 <h2>Questions are</h2>
 
@@ -853,5 +855,3 @@ How many different ways can £2 be made using any number of coins?
 > 99. Program to calculate circular primes below one million?
 
 > 100. Find the sum of all numbers, less than one million, which are palindromic in base 10 and base 2.
-
-<h2>Happy Coding 👨‍💻 </h2>
