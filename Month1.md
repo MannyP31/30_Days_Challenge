@@ -11,8 +11,8 @@
   <li>First of all you are required to signup to <b><a href="https://bitbucket.org/">Bitbucket</a></b> so that you can upload your solution there.</li>
   <li>You are supposed to solve atleast 90 questions out of 100 mentioned below and share the repo link of Bitbucket(make sure to make the repo public) in the google form attached. <b><a href="https://forms.gle/jFCWAzcED6BpvgDB9">Form Link</a></b></li>
   <li>For the time period of 30 days from 10th June 10:00 pm to 10th July 10:00 pm, the challenge will remain active.</li>
-  <li>Those who will successfully complete the challenge (fulfill 2nd point) will get a recognition certificate from CWC.</li>
-  <li>And the top 3 performers will get a certificate of achievement from the placement cell.</li>	
+  <li>Those who will successfully complete the challenge (fulfill 3rd point) will get a recognition certificate from CWC.</li>
+  <li>Top 3 performers will get a certificate of achievement from the placement cell.</li>	
 </ol>
 
 <h2>Happy Coding 👨‍💻 </h2>
