@@ -767,7 +767,7 @@ Example:
 Input: n = 6
 arr[ ] = { 16, 17, 4, 3, 5, 2}
 Output: 17  5  2
-<pre>
+</pre>
 
 > 84. Print the following pattern.
 <pre>
@@ -781,7 +781,7 @@ Output: 17  5  2
 > 85. Print the following pattern.
 <pre>
       1   2   3   4   
-           1   2   3   
-                1   2   
-                     1
+          1   2   3   
+              1   2   
+                  1
 </pre>
