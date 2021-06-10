@@ -810,3 +810,5 @@ The rounded value of 12.499990 is: 12.00
 </pre>
 
 > 88. Write a program to generate random integers in a specific range.
+
+> 89. Write a Java program to generate a magic square of order n (all row, column, and diagonal sums are equal).
