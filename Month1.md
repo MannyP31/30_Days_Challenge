@@ -40,4 +40,4 @@ and standard deviation of 15 kgs. What is the probability that all 41 boxes can 
 
 > 9. Find the sum of the digits in the number 100!
 
-> 10. A Pythagorean triplet is a set of three natural numbers, a < b < c, for which, a^2 + b^2 = c^2. There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
+> 10. Write a program which have three numbers a, b, c where a < b < c and a^2 + b^2 = c^2. There exists only one solution where it satisfy the following equation for a+ b + c = 1000. Find the product abc.
