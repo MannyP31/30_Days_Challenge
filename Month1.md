@@ -504,7 +504,7 @@ Next smallest palindrome:131
 1,1,4,8,9,27,16,64,.... Upto n terms
 </pre>
 
-> 54 . WAP to Print the pattern given below:
+> 54. WAP to Print the pattern given below:
 <pre>
 *****
  ***
@@ -514,3 +514,105 @@ Next smallest palindrome:131
 </pre>
 
 > 55. Given two complex numbers, write a program to add two numbers.
+
+> 56. Write a program to display whether a number is magic number or not. A magic number is a number whose sum of the digits when added gives result 1.
+<pre>
+Test case 1: 19 
+Output: Magic number
+Explanation: 1+9=10. 10=1+0=1.
+Test Case 2: 28
+Output: Magic number
+Explanation: 2+8=10. 10=1+0=1.
+</pre>
+
+> 57. Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
+<pre>
+Note:
+•	Note that in some languages, such as Java, there is no unsigned integer type. In this case, the input will be given as a signed integer type. It should not affect your implementation, as the integer's internal binary representation is the same, whether it is signed or unsigned.
+•	In Java, the compiler represents the signed integers using 2's complement notation. Therefore, in Example 3, the input represents the signed integer. -3.
+•	Example 1:
+•	Input: n = 00000000000000000000000000001011
+•	Output: 3
+•	Explanation: The input binary string 00000000000000000000000000001011 has a total of three '1' bits.
+•	Example 2:
+•	Input: n = 00000000000000000000000010000000
+•	Output: 1
+•	Explanation: The input binary string 00000000000000000000000010000000 has a total of one '1' bit.
+•	Example 3:
+•	Input: n = 11111111111111111111111111111101
+•	Output: 31
+•	Explanation: The input binary string 11111111111111111111111111111101 has a total of thirty one '1' bits.
+</pre>
+
+> 58. Write a program covert roman to integer. 
+
+> 59. Write a program to create a array of size N. Then perform a number of right circular rotations and return the values of the elements at the given indices.
+<pre>
+Input Format
+The first line contains 3 space-separated integers, n, p, and  q. Where n is the number of elements in the integer array, p is the rotation count and q is the number of queries. The second line contains n space-separated integers, where each integer i describes array element 
+
+Input
+N=3 p= 2 q=3
+A[]= {1 ,2 ,3}
+q1 = 0
+q2 = 1
+q3 = 2
+Output
+2
+3
+1
+Explanation 
+After the first rotation, the array is  [3,1,2]
+After the second (and final) rotation, the array is [2,3,1].
+We will print this final query indices
+</pre>
+
+> 60. Write a program to input two matrices then display the product of those two matrices. 
+
+> 61. Write a program to display square root of a N numbers using newton’s method.
+
+> 62. Write a program to take N numbers as input. Then display only prime - palindromes using method overloading concept.
+<pre>
+Example of prime palindromes are 2,3,5,7,11,101, and so on.
+</pre>
+
+> 63. Calculate the total fare of your ride in taxi. The taxi has a base fee of P40.00 for the first 250 meters. An additional P2.50 is added for every succeeding 200 meters. Compute and print the total fare that you would need to pay.
+<pre>
+Input Format:
+A single line containing the total distance traveled.
+Input Sample:
+250
+Output Format:
+A single line containing the total cost of the ride.
+Output Sample:
+P40.00
+</pre>
+
+> 64. William planned to choose a four digit lucky number for his car. His lucky numbers are 3,5 and 7. Help him find the number, whose sum is divisible by  3 or 5 or 7.
+Provide a valid car number, Fails to provide a valid input then display that number is not a valid car number. 
+<pre>
+Note : The input other than 4 digit positive number[includes negative and 0] is considered as invalid.
+Sample Input 1:
+Enter the car no:1234
+Sample Output 1:
+Lucky Number
+Sample Input 2:
+Enter the car no:1214
+Sample Output 2:
+Sorry its not my lucky number
+Sample Input 3:
+Enter the car no:14
+Sample Output 3:
+14 is not a valid car number
+</pre>
+
+> 65. The number will be unique if it is positive integer and there are no repeated digits in the number. In other words, a number is said to be unique if and only if the digits are not duplicate. For example, 20, 56, 9863, 145, etc. are the unique numbers while 33, 121, 900, 1010, etc. are not unique numbers 
+<pre>
+O/p: Enter the number you want to check: 13895
+The number is unique.
+</pre>
+
+> 66.  Find the 15th term of the series.
+<pre>
+0,0,7,6,14,12,21,18,28,…	
+</pre>
