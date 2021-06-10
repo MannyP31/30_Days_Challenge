@@ -4,6 +4,19 @@
 
 [![](https://img.shields.io/badge/CWC-ITER-gray.svg?style=for-the-badge&colorB=0000f&logo=github)](https://elastic-bose-ed6583.netlify.app/)
 
+## Coding Wizard Club welcomes you to the 30 Days Challenge Series.
+
+<ol>
+  <li>This Repo contains set of 100 questions.</li>
+  <li>First of all you are required to signup to <b><a href="https://bitbucket.org/">Bitbucket</a></b> so that you can upload your solution there.</li>
+  <li>You are supposed to solve atleast 90 questions out of 100 mentioned below and share your link in the google form attached <b><a href="https://forms.gle/jFCWAzcED6BpvgDB9">Form Link</a></b></li>
+  <li>For the time period of 30 days from 10th June 10:00 pm to 10th July 10:00 pm, competation will be live.</li>
+  <li>Those who will successfully complete the challenge (fulfill 2nd point) will get a recognition certificate from CWC.</li>
+  <li>And the top 3 performers will get a certificate of achievement from the placement cell.</li>
+</ol>
+
+<h2>Questions are</h2>
+
 > 1. From a set of permutations for a given number n find the number of elements such hat no element appears in its original position.
 <pre>
 Input:
@@ -811,4 +824,32 @@ The rounded value of 12.499990 is: 12.00
 
 > 88. Write a program to generate random integers in a specific range.
 
-> 89. Write a Java program to generate a magic square of order n (all row, column, and diagonal sums are equal).
+> 89. Write a program to generate a magic square of order n (all row, column, and diagonal sums are equal).
+
+> 90. Write a program to reverse an integer number.
+
+> 91. The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143.
+
+> 92. Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+> 93. 2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.What is the sum of the digits of the number 2^1000.
+
+> 94. 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20.
+
+> 95. The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17. Find the sum of all the primes below two million.
+
+> 96. Find the last ten digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000.
+
+> 97. In the United Kingdom the currency is made up of pound (£) and pence (p). There are eight coins in general circulation:
+<pre>
+1p, 2p, 5p, 10p, 20p, 50p, £1 (100p), and £2 (200p).
+It is possible to make £2 in the following way:
+1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p
+How many different ways can £2 be made using any number of coins?
+</pre>
+
+> 98. Find the sum of all numbers which are equal to the sum of the factorial of their digits.
+
+> 99. Program to calculate circular primes below one million?
+
+> 100. Find the sum of all numbers, less than one million, which are palindromic in base 10 and base 2.
